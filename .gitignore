@@ -1,6 +1,11 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+# Visual Studio Code
+.vscode/*
+.vscode/compileCommands_Default/*
+*.rsp
+
 # Compiled Object files
 *.slo
 *.lo
@@ -47,10 +52,11 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-Plugins/**/Binaries/*
+Plugins/*/Binaries/*
 
 # Builds
 Build/*
+XRDemoWindowsBuild/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
@@ -68,7 +74,8 @@ Saved/*
 
 # Compiled source files for the engine to use
 Intermediate/*
-Plugins/**/Intermediate/*
+Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+*.rsp
